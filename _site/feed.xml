@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oscar Sandoval</title>
+    <description>Thoughts about software and technology
+</description>
+    <link>http://oscarsandoval.info/</link>
+    <atom:link href="http://oscarsandoval.info/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 20 Sep 2014 17:43:46 -0700</pubDate>
+    <lastBuildDate>Sat, 20 Sep 2014 17:43:46 -0700</lastBuildDate>
+    <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Setting MacVim as the default editor in OSX</title>
+        <description>&lt;p&gt;In OSX, TextEdit is the default editor for plain text files. TextEdit is not great for coding snippets because it doesn’t play well with some characters. Therefore, I wanted to change the default text editor to something else, in my case: MacVim&lt;/p&gt;
+
+&lt;p&gt;You can try the method of selecting a .txt file, Get Info, Open with, select MacVim and then use “Change All”.&lt;/p&gt;
+
+&lt;p&gt;Another way is just running the following command:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;defaults write com.apple.LaunchServices LSHandlers -array-add &lt;span class=&quot;s1&quot;&gt;&amp;#39;{LSHandlerContentType=public.plain-text;LSHandlerRoleAll=org.vim.MacVim;}&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Sat, 20 Sep 2014 07:26:45 -0700</pubDate>
+        <link>http://oscarsandoval.info/vim/macvim/osx/2014/09/20/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://oscarsandoval.info/vim/macvim/osx/2014/09/20/welcome-to-jekyll.html</guid>
+        
+        
+        <category>vim</category>
+        
+        <category>macvim</category>
+        
+        <category>osx</category>
+        
+      </item>
+    
+  </channel>
+</rss>

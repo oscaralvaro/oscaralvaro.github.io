@@ -1,0 +1,11 @@
+# Site settings
+title: Oscar Sandoval
+email: oscaralvaro at gmail
+description: > # this means to ignore newlines until "baseurl:"
+  Thoughts about software and technology
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://oscarsandoval.info" # the base hostname & protocol for your site
+github_username:  oscaralvaro
+
+# Build settings
+markdown: kramdown
